@@ -1,0 +1,37 @@
+# Build output
+build/
+out/
+*.obj
+*.o
+*.exe
+*.pdb
+*.ilk
+*.lib
+*.a
+
+# ROMs / game data are NEVER committed
+roms/
+*.lnx
+*.lyx
+*.bin
+*.zip
+
+# Note: games/*/generated/recomp_funcs.{c,h} are committed. Phase 1 ships a
+# placeholder skeleton so the project builds post-clone; once the emitter is
+# real, regenerate with `m65c02recomp emit` and commit the result (the generated
+# C is the project's source of truth, like other recomp projects).
+
+# IDA / Ghidra
+*.i64
+*.idb
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+
+# Editor / OS
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db

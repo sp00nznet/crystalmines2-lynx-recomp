@@ -1,0 +1,3 @@
+[submodule "lynxrecomp"]
+	path = lynxrecomp
+	url = https://github.com/sp00nznet/lynxrecomp.git

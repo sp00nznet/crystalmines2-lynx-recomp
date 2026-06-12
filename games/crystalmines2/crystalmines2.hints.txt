@@ -1,0 +1,2 @@
+# Analyzer hints for Crystal Mines II (USA, Europe). See lynxrecomp/docs/RECOMPILER.md.
+# Empty for now; seed entries from the recovered entry/handlers once mapped.
