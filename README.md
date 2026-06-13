@@ -35,6 +35,11 @@ game's own entry point and dispatch seeds. Out of the box:
 - Discovery + emit produced **~220 functions, zero dispatch gaps** after
   seed-closure; the recompiled C runs and renders the title screen.
 
+The toolkit since gained **save states** and an optional **SDL2 + Dear ImGui
+frontend** (window, audio, input, menu, ComLynx multiplayer) — see the toolkit's
+[`docs/FRONTEND.md`](https://github.com/sp00nznet/lynxrecomp/blob/main/docs/FRONTEND.md);
+this game can adopt that host for live play.
+
 ## Build & run
 
 You need the toolkit (built from the submodule), your cart dump, and the Lynx
