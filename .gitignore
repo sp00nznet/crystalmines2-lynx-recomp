@@ -35,3 +35,7 @@ roms/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Generated from the game or taken from it: made locally, never
+# committed (REPO_RULES section 3)
+games/*/generated/
